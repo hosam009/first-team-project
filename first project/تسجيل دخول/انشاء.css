@@ -1,0 +1,98 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+}
+
+input[type=text], input[type=password] , input[type=email] {
+    width: 100%;
+    padding: 12px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px ;
+    margin: 8px ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container > h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.container > label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: px;
+}
+
+.container > button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px ;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container > button:hover {
+    opacity: 0.8;
+}
+
+.container > .psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.container > .register {
+    float: left;
+    padding-top: 16px;
+}
+.container > .email{
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
